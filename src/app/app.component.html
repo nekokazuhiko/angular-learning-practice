@@ -177,7 +177,7 @@
   }
 </style>
 
-<main class="main">
+<main class="main container">
   <div class="content">
     <div class="left-side">
       <svg
@@ -225,7 +225,7 @@
           <clipPath id="a"><path fill="#fff" d="M0 0h982v239H0z" /></clipPath>
         </defs>
       </svg>
-      <h1>Hello,there! {{ title }}</h1>
+      <h1 class="text-danger">Hello,there! {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
@@ -323,6 +323,14 @@
     </div>
   </div>
 </main>
+<div class="container text-center">
+  <button class="btn btn-primary m-2">primary</button>
+  <button class="btn btn-secondary m-2">secondary</button>
+  <button class="btn btn-warning m-2">warning</button>
+  <button class="btn btn-info m-2">info</button>
+  <button class="btn btn-success m-2">success</button>
+  <button class="btn btn-danger m-2">danger</button>
+</div>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
