@@ -17,25 +17,25 @@ export class PortfolioComponent {
         title: "Project Name 01",
         imgSrc: "https://dummyimage.com/600x400/343a40/6c757d",
         imgAlt: "...",
-        link:"/"
+        link:"/home"
       },
       {
         title: "Project Name 02",
         imgSrc: "https://dummyimage.com/600x400/343a40/6c757d",
         imgAlt: "...",
-        link:"/"
+        link:"/home"
       },
       {
         title: "Project Name 03",
         imgSrc: "https://dummyimage.com/600x400/343a40/6c757d",
         imgAlt: "...",
-        link:"/"
+        link:"/home"
       },
       {
         title: "Project Name 04",
         imgSrc: "https://dummyimage.com/600x400/343a40/6c757d",
         imgAlt: "...",
-        link:"/"
+        link:"/home"
       },
     ]
   }

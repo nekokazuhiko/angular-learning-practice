@@ -10,22 +10,14 @@
         <li class="nav-item"><a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a></li>
         <li class="nav-item"><a class="nav-link" routerLink="/pricing" routerLinkActive="active">Pricing</a></li>
         <li class="nav-item"><a class="nav-link" routerLink="/faq" routerLinkActive="active">FAQ</a></li>
-        <li class="nav-item"><a class="nav-link" routerLink="/blog" routerLinkActive="active">Blog</a></li>
         <li class="nav-item"><a class="nav-link" routerLink="/portfolio" routerLinkActive="active">Portfolio</a></li>
         <li class="nav-item" ngbDropdown>
-          <a class="nav-link" ngbDropdownToggle id="navbarDropdownBlog" role="button">Blog</a>
+          <a class="nav-link" ngbDropdownToggle id="navbarDropdownBlog" role="button" routerLinkActive="active">Blog</a>
           <ul class="dropdown-menu dropdown-menu-end" ngbDropdownMenu aria-labelledby="navbarDropdownBlog">
-            <li><a ngbDropdownItem class="dropdown-item"  routerLink="/blog" routerLinkActive="active" (click)="$event.preventDefault()">Blog Home</a></li>
-            <li><a ngbDropdownItem class="dropdown-item" routerLink="/" (click)="$event.preventDefault()">Blog Post</a></li>
+            <li><a ngbDropdownItem class="dropdown-item"  routerLink="/blog/blog-index" routerLinkActive="active">Blog Home</a></li>
+            <li><a ngbDropdownItem class="dropdown-item" routerLink="/blog/blog-post" routerLinkActive="active">Blog Post</a></li>
           </ul>
         </li>
-<!--        <li class="nav-item dropdown">-->
-<!--          <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>-->
-<!--          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">-->
-<!--            <li><a class="dropdown-item" routerLink="portfolio-overview.html">Portfolio Overview</a></li>-->
-<!--            <li><a class="dropdown-item" routerLink="/">Portfolio Item</a></li>-->
-<!--          </ul>-->
-<!--        </li>-->
       </ul>
     </div>
   </div>
