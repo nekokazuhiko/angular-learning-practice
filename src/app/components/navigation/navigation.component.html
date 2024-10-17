@@ -1,21 +1,21 @@
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container px-5">
-    <a class="navbar-brand" routerLink="/home">Start Bootstrap</a>
+    <a class="navbar-brand" [routerLink]="['/home']">Start Bootstrap</a>
     <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed"><span class="navbar-toggler-icon"></span></button>
     <div [ngbCollapse]="isMenuCollapsed" [class.collapse]="isCollapsed" class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a></li>
-        <li class="nav-item"><a class="nav-link" routerLink="/about" routerLinkActive="active">About</a></li>
-        <li class="nav-item"><a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a></li>
-        <li class="nav-item"><a class="nav-link" routerLink="/pricing" routerLinkActive="active">Pricing</a></li>
-        <li class="nav-item"><a class="nav-link" routerLink="/faq" routerLinkActive="active">FAQ</a></li>
-        <li class="nav-item"><a class="nav-link" routerLink="/portfolio" routerLinkActive="active">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['/about']" routerLinkActive="active">About</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['/contact']" routerLinkActive="active">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['/pricing']" routerLinkActive="active">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['/faq']" routerLinkActive="active">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['/portfolio']" routerLinkActive="active">Portfolio</a></li>
         <li class="nav-item" ngbDropdown>
           <a class="nav-link" ngbDropdownToggle id="navbarDropdownBlog" role="button" routerLinkActive="active">Blog</a>
           <ul class="dropdown-menu dropdown-menu-end" ngbDropdownMenu aria-labelledby="navbarDropdownBlog">
-            <li><a ngbDropdownItem class="dropdown-item"  routerLink="/blog/blog-index" routerLinkActive="active">Blog Home</a></li>
-            <li><a ngbDropdownItem class="dropdown-item" routerLink="/blog/blog-post" routerLinkActive="active">Blog Post</a></li>
+            <li><a ngbDropdownItem class="dropdown-item" [routerLink]="['/blog','blog-index']" routerLinkActive="active">Blog Home</a></li>
+            <li><a ngbDropdownItem class="dropdown-item" [routerLink]="['/blog','blog-post']" routerLinkActive="active">Blog Post</a></li>
           </ul>
         </li>
       </ul>

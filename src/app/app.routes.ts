@@ -1,12 +1,5 @@
 import { Routes } from '@angular/router';
-// import { HomeComponent } from './components/home/home.component';
-// import { AboutComponent } from './components/about/about.component';
 // import { BlogComponent } from './components/blog/blog.component';
-// import { FaqComponent } from './components/faq/faq.component';
-// import { ContactComponent } from './components/contact/contact.component';
-// import { PricingComponent } from './components/pricing/pricing.component';
-// import { PortfolioComponent } from './components/portfolio/portfolio.component';
-// import { ErrorsComponent } from './components/errors/errors.component';
 // import {BlogIndexComponent} from './components/blog/blog-index/blog-index.component';
 // import {BlogPostComponent} from "./components/blog/blog-post/blog-post.component";
 
